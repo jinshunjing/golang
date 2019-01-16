@@ -7,7 +7,7 @@ import (
 )
 
 func main()  {
-	testChannel3()
+	testByte()
 }
 
 func testRoutine()  {
@@ -45,6 +45,14 @@ func testChannel3()  {
 
 func testVariable()  {
 	mytype.MyVariables()
+}
+
+func testByte()  {
+	mytype.MyByte()
+}
+
+func testArray() {
+	mytype.MyArray()
 }
 
 func testSlice()  {
